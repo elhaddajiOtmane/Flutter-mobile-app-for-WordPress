@@ -70,9 +70,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         ),
         pages: [
           PageViewModel(
-            title: 'Lorem Ipsum',
+            title: 'Welcome to AI-Hunter',
             body:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id euismod lectus, non tempor felis. Nam rutrum rhoncus est ac venenatis.',
+                'Unlock the potential of AI with AI-Hunter, the definitive directory for AI tools. Our extensive library spans over 2000 tools across more than 70 categories, equipping you with the means to innovate and enhance your projects.',
             image: Container(
               width: double.infinity,
               decoration: BoxDecoration(
@@ -108,9 +108,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               width: double.infinity,
               height: double.infinity,
             ),
-            title: 'Lorem Ipsum',
+            title: 'Tailored For Excellence',
             body:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id euismod lectus, non tempor felis. Nam rutrum rhoncus est ac venenatis.',
+                'Explore detailed reviews, pricing, and alternatives for each AI tool. Our directory is constantly updated, ensuring you have access to the latest in AI technology',
             decoration: PageDecoration(
               fullScreen: true,
               bodyFlex: 0,
@@ -135,9 +135,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           ),
           PageViewModel(
             reverse: true,
-            title: 'Lorem Ipsum',
+            title: 'Join Our Community',
             body:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id euismod lectus, non tempor felis. Nam rutrum rhoncus est ac venenatis.',
+                'Become part of a vibrant community of AI enthusiasts. Share, learn, and stay updated with weekly insights into the AI world. Start with AI-Hunter today and step into the future.',
             image: Container(
               width: double.infinity,
               decoration: BoxDecoration(
