@@ -93,9 +93,9 @@ Future<void> main() async {
       'appGrey': const Color.fromARGB(255, 192, 192, 192),
       'appDarkGrey': const Color.fromARGB(255, 114, 114, 114),
       'appBlack': const Color.fromARGB(255, 54, 54, 54),
-      'termsAndConditionsUrl': 'https://www.inito.dev/terms.html',
-      'privacyPolicyUrl': 'https://www.inito.dev/privacy.html',
-      'contactUsUrl': 'https://initodev.freshdesk.com/support/tickets/new',
+      'termsAndConditionsUrl': 'https://ai-hunter.io/terms.html',
+      'privacyPolicyUrl': 'https://ai-hunter.io/privacy.html',
+      'contactUsUrl': 'https://ai-hunter.io/support/tickets/new',
       //This appleAppStoreID is used for In-App Review.
       //Only change this ID with your Apple ID in App Store Connect under "General > App Information > Apple ID" if you publish this app into App Store.
       //Otherwise, leave it as it is.

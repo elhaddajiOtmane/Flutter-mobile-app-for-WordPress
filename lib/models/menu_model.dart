@@ -16,9 +16,12 @@ class Menu {
   List<Primary> primary;
 
   factory Menu.fromJson(Map<String, dynamic> json) => Menu(
-        primary:
-            List<Primary>.from(json["primary"].map((x) => Primary.fromJson(x))),
-      );
+    primary: List<Primary>.from(
+      (json["primary_menu"] as List).map(
+            (x) => Primary.fromJson(x),
+      ),
+    ),
+  );
 
   Map<String, dynamic> toJson() => {
         "primary": List<dynamic>.from(primary.map((x) => x.toJson())),

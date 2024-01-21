@@ -1,4 +1,4 @@
-package com.example.ini_news_flutter
+package com.aihunter.app
 
 import io.flutter.embedding.android.FlutterActivity
 
