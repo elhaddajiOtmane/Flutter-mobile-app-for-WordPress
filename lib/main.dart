@@ -73,8 +73,8 @@ Future<void> main() async {
   // App-wide Config
   FlavorConfig(
     variables: {
-      'apiBaseUrl': 'https://dummycontent.inito.dev/wp-json/wp/v2',
-      'appName': 'iniNews',
+      'apiBaseUrl': 'https://ai-hunter.io/wp-json/wp/v2',
+      'appName': 'AI-HUNTER',
       //By default, this app use 'adProvider': 'Google AdMob' as its ad provider, you can change between Facebook Ads or Google AdMob as your preferred ad provider
       //Change to 'adProvider: 'Facebook Ads' if you want to use Facebook Ads instead
       'adProvider': 'Google AdMob',
